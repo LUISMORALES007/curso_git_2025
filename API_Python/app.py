@@ -33,3 +33,9 @@ def get_superheroes():
     return rows       
 
 
+
+
+@app.get("/superheroesInventadoscool")
+def get_superheroes():
+    rows = ["Chrono Lynx","Spectra Nova","Iron Phantom","Velox Fang","Darkwave"]
+    return rows       
