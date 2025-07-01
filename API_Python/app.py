@@ -26,3 +26,10 @@ def get_superheroes():
 def get_superheroes():
     rows = ["Superman", "Aquaman"]
     return rows
+
+
+@app.get("/superheroesok2")
+def get_superheroes():
+    rows = ["Supermen", "Aquamen"]
+    return rows
+
