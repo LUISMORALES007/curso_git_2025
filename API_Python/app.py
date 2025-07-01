@@ -19,3 +19,9 @@ def get_superheroes():
 def get_superheroes():
     rows = ["Spiderman", "Thor", "Ironman", "Hulk", "Wolverine"]
     return rows    
+
+
+@app.get("/superheroesInventados2")
+def get_superheroes():
+    rows = ["Capman", "AuThor", "Ironwoman", "Hilk", "Wolverinerbi"]
+    return rows       
