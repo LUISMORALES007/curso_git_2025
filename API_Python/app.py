@@ -27,57 +27,12 @@ def get_superheroes():
     return rows    
 
 
-@app.get("/superheroesInventados")
+@app.get("/superheroesInventadosfull")
 def get_superheroes():
-    rows = ["Spidercat", "Thorado", "Ironmaiden", "Hulking", "Wolverineheim"]
-    return rows  
-
-
-
-@app.get("/superheroesInventados2")
-def get_superheroes():
-    rows = ["Capman", "AuThor", "Ironwoman", "Hilk", "Wolverinerbi"]
+    rows = ["Voidflame","Neural Knight","Stormshade","Blazarix","Mirage Veloz"]
     return rows       
 
 
- @app.get("/superheroesInventados3")
-def get_superheroes():
-    rows =[
-  "Capman",
-  "AuThor",
-  "Ironwoman",
-  "Hilk",
-  "Wolverinerbi",
-  "Shadow Vortex",
-  "Voltaris",
-  "Solaris Flame",
-  "Nebula X",
-  "Echo Fist",
-  "Crimson Drift",
-  "Mystblade",
-  "Phantom Pulse",
-  "Spectro",
-  "Glacier Hawk"
-]
-    return rows    
-
-
- @app.get("/superheroesInventados4")
-def get_superheroes():
-    rows =[
-  "Capman",
-  "AuThor",
-  "Phantom Pulse",
-  "Spectro",
-  "Glacier Hawk"
-]
-    return rows  
-
-
-@app.get("/superheroesInventados5")
-def get_superheroes():
-    rows = ["Capman", "AuThor", "Ironwoman", "Hilk", "Wolverdddddddddddddddddddddddddddddddddddddddddinerbi"]
-    return rows       
 
 
 @app.get("/superheroesInventadoscool")
