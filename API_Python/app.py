@@ -16,26 +16,4 @@ def get_superheroes():
     return rows
 
 
-@app.get("/superheroesVarios")
-def get_superheroes():
-    rows = ["BarbillaRoja", "Antman", "Cirenoman y chico percebe"]
-    return rows
 
-@app.get("/superheroesMarvel")
-def get_superheroes():
-    rows = ["Spiderman", "Thor", "Ironman", "Hulk", "Wolverine"]
-    return rows    
-
-
-@app.get("/superheroesInventadosfull")
-def get_superheroes():
-    rows = ["Voidflame","Neural Knight","Stormshade","Blazarix","Mirage Veloz"]
-    return rows       
-
-
-
-
-@app.get("/superheroesInventadoscool")
-def get_superheroes():
-    rows = ["Chrono Lynx","Spectra Nova","Iron Phantom","Velox Fang","Darkwave"]
-    return rows       
