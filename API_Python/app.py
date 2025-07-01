@@ -31,3 +31,17 @@ def get_superheroes():
 def get_superheroes():
     rows = ["Spidercat", "Thorado", "Ironmaiden", "Hulking", "Wolverineheim"]
     return rows  
+
+
+
+@app.get("/superheroesInventados2")
+def get_superheroes():
+    rows = ["Capman", "AuThor", "Ironwoman", "Hilk", "Wolverinerbi"]
+    return rows       
+
+
+@app.get("/superheroesmasinventos")
+def get_superheroes():
+    rows = ["Capman","uThor","Ironwoman","Hilk","Wolverinerbi","Shadow Vortex","Voltaris","Solaris Flame","Nebula X","Echo Fist","Crimson Drift","Mystblade","Phantom Pulse","Spectro","Glacier Hawk","Dr. Quántico","Tempest Vibe","Fulgor Azul","Zetatron","Luz Sombría","Infernova","Auralux","Titan Specter","Chronomaster","Electro Lynx","Magmara","Silencio Letal","Venox","Seraphox","Dragoon Byte"]
+    return rows       
+
