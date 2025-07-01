@@ -20,3 +20,9 @@ def get_superheroes():
 def get_superheroes():
     rows = ["BarbillaRoja", "Antman", "Cirenoman y chico percebe"]
     return rows
+
+@app.get("/superheroesMarvel")
+def get_superheroes():
+    rows = ["Spiderman", "Thor", "Ironman", "Hulk", "Wolverine"]
+    return rows    
+
